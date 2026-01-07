@@ -1,0 +1,57 @@
+/* Chéret-Guillet Alizée    */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: aqua;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.question {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.question p {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+.buttons {
+    text-align: left;
+    margin-top: 20px;
+}
+
+button {
+    text-align: left;
+    margin: 5px;
+    padding: 10px 20px;
+    background: #2d79c1;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    text-align: left;
+    background: #195a8c;
+}
+
+#score {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #111;
+}
+

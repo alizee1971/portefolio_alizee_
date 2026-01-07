@@ -1,0 +1,120 @@
+body {
+    font-family: Times New Roman, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #06edfd;
+}
+body:hover{
+    background-color: rgb(5, 248, 236);
+}
+
+    /* Alizée Chéret-Guillet */
+
+header {
+    background-color: #02ffb3;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+}
+header:hover{
+    background-color: rgb(5, 41, 248);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 30px;
+}
+section:hover{
+    background-color: rgb(5, 248, 236);
+}
+section img {
+    display: block;
+    margin: 10px 0;
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffe602;
+    color: white;
+}
+footer:hover{
+    background-color: rgb(248, 5, 147);
+}
+section[id="about"]{
+    background-color: rgb(0, 247, 255);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    cursor: pointer;
+}
+section[id="about"]:hover{
+    background-color: rgb(5, 131, 248);
+}
+section[id="hobbies"]{
+    background-color: rgb(0, 255, 179);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    cursor: pointer;
+}
+section[id="hobbies"]:hover{
+    background-color: rgb(5, 248, 37);
+}
+section[id="Projets"]{
+    background-color: rgb(255, 196, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    cursor: pointer;
+}
+section[id="Projets"]:hover{
+    background-color: rgb(248, 122, 5);
+}
+section[id="contact"]{
+    background-color: rgb(255, 0, 106);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    cursor: pointer;
+}
+section[id="contact"]:hover{
+    background-color: rgb(248, 41, 5);
+}

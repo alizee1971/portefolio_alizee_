@@ -1,0 +1,71 @@
+body{
+    font-family: arial ,sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+    /* Alizée Chéret-Guillet */
+
+h1{
+    color: black;
+}
+
+form{
+    background-color: rgb(7, 215, 243);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"], input[type="file"]{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 5px solid #07d7f3;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+}
+input[type="password"], input[type="radio"], input[type="date"], input[type="color"]{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 5px solid #07f3cc;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+}
+input[type="color"]{
+    width: 40%;
+    padding: 30px;
+    margin-bottom: 10px;
+    border: 5px solid #07f3cc;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+}
+input[type="checkbox"], input[type="number"], input[type="range"]{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 5px solid #07f391;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+}
+input[type="submit"]{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: rgb(0, 247, 255);
+}
