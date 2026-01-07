@@ -1,0 +1,48 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+
+        <link href="index.css" rel="stylesheet">    
+        <link href="yes.html">    
+        <link href="non.html">
+        <link href="identification.html">
+        <script src="index.js"></script>
+    </head>
+    <body>
+    <h2>Tableau Dynamique</h2>
+
+        Nom: <br>
+        <input type="text" placeholder="Nom" name="nom" id="nom"> <br>
+        Prenom: <br>
+        <input type="text" placeholder="Prenom" name="prenom" id="prenom"> <br>
+        Age: <br>
+        <input type="text" placeholder="Age" name="age" id="age">
+        <br>
+        <br>
+
+        <table id="myTable">
+            <tr>
+                <td>Nom</td>
+                <td>Prenom</td>
+                <td>Age</td>
+            </tr>
+            <tr>
+                <td>ROMAIN</td>
+                <td>Kevin</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>TOM</td>
+                <td>Lyse</td>
+                <td>16</td>
+            </tr>
+        </table>
+
+        <button onclick="addLigne()">Ajoutez une ligne </button>
+        <a href="index.html">Retour</a>   
+    </body>
+    </html>

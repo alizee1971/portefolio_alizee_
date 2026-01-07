@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="facture.css">
+
+    <script src="facture.js"></script>
+</head>
+<body>
+    <div class="paragraphe"> <font color="blue" size="4em">
+
+    <img src="apple.webp" width="200" height="200"> <br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1> Date création : 15/11/22 </h1> <br><br>
+    <p1> N°Facture :  </p1>
+
+    <h2>  <u> Destinataire </u>  </h2> <br><br><br><br>
+    <p> Nom </p> <br><br><br><br><br><br>
+    <p> Nom de la société </p> <br><br><br><br><br><br>
+    <p> Adresse Postale </p> <br><br><br><br><br><br>
+    <p> Téléphone </p> <br><br><br><br><br><br>
+    <p> Email </p> <br><br><br><br><br><br>
+
+    <h3> <u> Envoyer à </u> </h3> <br><br><br><br>
+    <p2> Nom </p2> <br>
+    <p2> Nom de la société </p2> <br>
+    <p2> Adresse Postale </p2> <br>
+    <p2> Téléphone </p2> <br>
+    <p2> Email </p2> <br>
+    
+    <table border="0" width="50%"> 
+
+    <tr>
+        <td> <p> Article :  </p> </td>
+        <td> <p> Quantité :  </p> </td>
+        <td> <p> Prix :  </p> </td>
+        <td> <p> Résultat :  </p> </td>
+    </tr>
+
+    <tr> <td> 
+    <p> e1 :  </p> </td>
+    <td>
+    <label> </label>
+    <input type="text" name="t1" id="t1" > </td>
+    <td>
+    <label> </label>
+    <input type="text" name="t2" id="t2" > </td>
+    <td>
+    <input type="text" name="resultat" id="t3"> </td>
+    </tr>
+
+    <tr> <td>  
+    <p> e2 :  </p> </td>
+    <td>
+    <label>  </label>
+    <input type="text" name="t4" id="t4" > </td>
+    <td>
+    <label>  </label>
+    <input type="text" name="t5" id="t5" > </td>
+    <td>
+    <input type="text" name="resultat" id="t6"> </td>
+    </tr>
+
+    <tr> <td> 
+    <p> e3 :  </p> </td>
+    <td>
+    <input type="text" name="t7" id="t7" > </td>
+    <td>
+    <input type="text" name="t8" id="t8" > </td>
+    <td>
+    <input type="text" name="resultat" id="t9"> </td>
+    </tr>
+
+    <tr> <td>
+    <td> <button onclick="reinitialiser()"> Effacer :  </button> </td>
+    <td> <button onclick="resultat()"> Résultat :  </button> </td>
+    <td> <label>  </label>
+    <input type="text" name="t10" id="t10"> </td>
+    </tr>
+
+    </div>
+</html>

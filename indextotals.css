@@ -1,0 +1,215 @@
+body{
+    background: linear-gradient(to right, rgb(217, 255, 0), cyan);
+    border-radius: 15px;
+}
+
+    /* Alizée Chéret-Guillet 
+body{
+    font-family: Verdana, Calibri, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+*/
+
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav > ul > li{
+    float: left;
+}
+
+.submenu{
+    display: none;
+}
+
+nav input[type=checkbox]{
+    display: none;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+nav{
+    width: 100%;
+    background-color: #424558;
+}
+
+nav > ul > li{
+    float: left;
+    position: relative;
+}
+
+nav > ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: inline-block;
+    text-align: none;
+}
+
+nav > ul > li > a{
+    padding: 20px 30px;
+    color: #FFF
+}
+
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 100000;
+}
+
+@media screen and (max-width : 680px){
+    .menu-mobile {
+        display: block;
+        color: #fff;
+        background-color: rgba(29, 197, 151, 0.97);
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    nav ul{
+        display: none;
+    }
+    nav ul li, nav ul li a {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a, nav ul li:hover a{
+        padding: 10px 0px 10px 0px;
+    }
+
+    nav li:hover .submenu{
+        display: block;
+        position: static;
+    }
+}
+
+.submenu li a{
+    padding: 15px 30;
+    font-size: 13px;
+    color: #0928ec;
+    width: 270px;
+}
+
+.menu-html:hover{
+    border-top: 5px solid aqua;
+    background-color: black;
+}
+
+.menu-css:hover{
+    border-top: 5px solid #06ffc9;
+    background-color: black;   
+}
+
+.menu-basededonne:hover{
+    border-top: 5px solid #9ee8ff;
+    background-color: black;
+}
+
+.menu-php:hover{
+    border-top: 5px solid #d209ec;
+    background-color: black;
+}
+
+.menu-missions:hover{
+    border-top: 5px solid #2ef8ee;
+    background-color: black;
+}
+
+.menu-certifications:hover{
+    border-top: 5px solid #05f8c3;
+    background-color: black;
+}
+
+.menu-js:hover{
+    border-top: 5px solid #f504b9;
+    background-color: black;   
+}
+
+.menu-contact:hover{
+    border-top: 5px solid #fc0707;
+    background-color: black;   
+}
+
+nav > ul > li:hover a{
+    padding: 15px 30px 20px 30px;
+} 
+
+.menu-html .submenu{
+    background-color: rgb(17, 176, 240);
+}
+
+.menu-css .submenu{
+    background-color: rgb(16, 231, 113);
+}
+
+.menu-js .submenu{
+    background-color: rgb(250, 5, 209);
+}
+
+.menu-contact .submenu{
+    background-color: rgb(4, 171, 248);
+}
+
+.menu-basededonne .submenu {
+    background-color: rgb(133, 237, 255);
+}
+
+.menu-php .submenu {
+    background-color: rgb(155, 94, 255);
+}
+
+.menu-missions .submenu {
+    background-color: rgb(243, 52, 52);
+}
+
+.menu-certifications .submenu {
+    background-color: #05f8c3;
+}
+
+.submenu li:hover a{
+    color: #EEE;
+    font-weight: bold;
+}
+
+.menu-html .submenu li:hover{
+    background-color: rgb(7, 107, 236);
+}
+
+.menu-css .submenu li:hover{
+    background-color: rgb(55, 238, 9);
+}
+
+.menu-js .submenu li:hover{
+    background-color: rgb(250, 5, 217);
+}
+
+.menu-contact .submenu li:hover{
+    background-color: aqua;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+nav input[type=checkbox]{
+    display: none;
+}
+
+nav input[type=checkbox]:checked ~ ul{
+    display: block;
+}
